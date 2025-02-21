@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Qualification.css';
 import { useState } from 'react';
 
@@ -36,7 +36,7 @@ const Qualification = () => {
               <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                 <div className='qualification__data'>
                   <div>
-                    <h3 className='qualification__title'>ICT management student</h3>
+                    <h3 className='qualification__title'>ICT management</h3>
                     <span className='qualification__subtitle'>Tunisia - Iset'Com Tunis</span>
                     <div className='qualification__calender'>
                       <i className='bx bx-calendar-event'></i> 2021 - 2023
@@ -58,10 +58,10 @@ const Qualification = () => {
                   <span className='qualification__line'></span>
                 </div>
                   <div>
-                    <h3 className='qualification__title'>Master's student in E-commerce</h3>
+                    <h3 className='qualification__title'>Master's degree in E-commerce</h3>
                     <span className='qualification__subtitle'>Tunisia - Isg Gabès</span>
                     <div className='qualification__calender'>
-                      <i className='bx bx-calendar-event'></i> 2023 - Present
+                      <i className='bx bx-calendar-event'></i> 2023 - 2025
                     </div>
                   </div>
                 
@@ -103,10 +103,10 @@ const Qualification = () => {
             <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                 <div className='qualification__data'>
                   <div>
-                    <h3 className='qualification__title'>Web developer volunteering</h3>
-                    <span className='qualification__subtitle'>Tunisia - Arab ICT organization</span>
+                    <h3 className='qualification__title'>Web developer</h3>
+                    <span className='qualification__subtitle'>Hexagrow , Algeria</span>
                     <div className='qualification__calender'>
-                      <i className='bx bx-calendar-event'></i> February 2023 - Present
+                      <i className='bx bx-calendar-event'></i> December 2024 - Present
                     </div>
                   </div>
                 
@@ -125,28 +125,49 @@ const Qualification = () => {
                   <span className='qualification__line'></span>
                 </div>
                   <div>
-                    <h3 className='qualification__title'>Intern as a video game developer</h3>
-                    <span className='qualification__subtitle'>Tunisia - CGI Studio</span>
+                    <h3 className='qualification__title'>Software Development Instructor
+                    </h3>
+                    <span className='qualification__subtitle'>GOMYCODE , Tunisia</span>
                     <div className='qualification__calender'>
-                      <i className='bx bx-calendar-event'></i> July 2022 - September 2022
+                      <i className='bx bx-calendar-event'></i> July 2024 - Present
                     </div>
                   </div>
                 
               </div>
               <div className='qualification__data'>
                   <div>
-                    <h3 className='qualification__title'>Intern at the Tunisian Post Office</h3>
-                    <span className='qualification__subtitle'>Tunisia - Tunisian Post Office</span>
+                    <h3 className='qualification__title'>Backend developer intern</h3>
+                    <span className='qualification__subtitle'>Branding Routes- London area UK</span>
                     <div className='qualification__calender'>
-                      <i className='bx bx-calendar-event'></i> Januray 2022 - Mars 2022
+                      <i className='bx bx-calendar-event'></i> October 2024 - December 2024
                     </div>
                   </div>
-                
                 <div>
                   <span className='qualification__rounder'></span>
                   <span className='qualification__line'></span>
                 </div>
               </div>
+
+              <div className='qualification__data'>
+
+                <div></div>
+
+                <div>
+                  <span className='qualification__rounder'></span>
+                  <span className='qualification__line'></span>
+                </div>
+                  <div>
+                    <h3 className='qualification__title'>Freelance web developer
+                    </h3>
+                    <span className='qualification__subtitle'>Working remotley</span>
+                    <div className='qualification__calender'>
+                      <i className='bx bx-calendar-event'></i> November 2022 - Present
+                    </div>
+                  </div>
+                
+              </div>
+
+              
 
               
             </div>

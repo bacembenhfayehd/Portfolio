@@ -29,7 +29,7 @@ const Contact = () => {
                     <div className="contact__card">
                     <i class='bx bxl-gmail contact__card-icon'></i>
                     <h3 className="contact__card-title">Email</h3>
-                    <span className="contact__card-data">hfaidhbacem2017@gmail.com</span>
+                    <span className="contact__card-data">bacem.benhfayedh@gmail.com</span>
 
                     <a href="hfaidhbacem2017@gmail.com" className='contact__button'>Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i></a>
                     </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                     <h3 className="contact__card-title">Whatsapp</h3>
                     <span className="contact__card-data">51921384</span>
 
-                    <a href="" className='contact__button'>Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i></a>
+                    <a  className='contact__button'>Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i></a>
                     </div>
 
                     <div className="contact__card">

@@ -22,10 +22,10 @@ function App() {
       <main className='home'>
         <Home/>
         <About/>
+        <Qualification/>
         <Skills/>
         <Service/>
         <Work/>
-        <Qualification/>
         <Testimonals/>
         <Contact/>
         

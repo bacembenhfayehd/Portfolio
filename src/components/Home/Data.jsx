@@ -1,18 +1,17 @@
 import React from 'react'
 //import Imgprof from '../../assets/bacim.jpg'
-import { FaRegEnvelope } from "react-icons/fa";
-import {Link} from 'react-router-dom'
+
 
 
 const Data = () => {
   return (
     <div className='home__data'>
         <h1 className='home__title'>
-         Bacem Benhfayedh
+         Bacem Benhfayedh 👋
          {/*<img src={Imgprof} alt="" />*/}
         </h1>
         <h3 className='home__subtitle'>Web Developer</h3>
-        <p className='home__description'>I'm a skilled web developer based in Gabes, deeply passionate and dedicated to my work.</p>
+        <p className='home__description'>I'm a skilled web developer and instructor, deeply passionate and dedicated to my work.</p>
        
         <a href="#contact" className='button button--flex'>
             Reach out 
