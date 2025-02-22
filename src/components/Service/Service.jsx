@@ -31,7 +31,7 @@ const Service = () => {
                     <div className='services__modal-content'>
                         <i class='bx bx-x services__modal-close' onClick={() =>toggle(0)}></i> 
                         <h3 className='services__modal-title'>Web developer</h3>
-                        <p className='services__modal-description'>Services with more than 1 year of 
+                        <p className='services__modal-description'>Services with more than 2 years of 
                         experience.Providing quality work to clients and companies</p>
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
@@ -42,7 +42,7 @@ const Service = () => {
 
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I design and implement database schemas, models, and efficient SQL queries to manage application data.</p>
+                                <p className='services__modal-info'>I design and implement database schemas, models, and efficient SQL / NOSQL queries to manage application data.</p>
 
                             </li>
 
@@ -52,17 +52,7 @@ const Service = () => {
 
                             </li>
 
-                            <li className='services__modal-service'>
-                                <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I monitor and optimize application performance to enhance user satisfaction.</p>
-
-                            </li>
-
-                            <li className='services__modal-service'>
-                                <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I continuously learn and adapt to new technologies in full stack development to deliver high-quality solutions.</p>
-
-                            </li>
+                           
 
                         </ul>
                     </div>
@@ -74,7 +64,7 @@ const Service = () => {
                 <div>
 
                     <i class='bx bx-color services__icon' ></i>
-                    <h3 className="services__title">UI/UX <br/> Designer</h3>
+                    <h3 className="services__title">Scalability & Deployment Solutions</h3>
 
                 </div>
                 <span className='services__button' onClick={() => toggle(2)}>View More
@@ -83,37 +73,24 @@ const Service = () => {
                 <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                     <div className='services__modal-content'>
                         <i class='bx bx-x services__modal-close' onClick={() =>toggle(0)}></i>
-                        <h3 className='services__modal-title'>UI/UX Designer</h3>
-                        <p className='services__modal-description'>Services with more than 1 year of 
-                        experience.Providing quality work to clients and companies</p>
+                        <h3 className='services__modal-title'>DevOps & Cloud Deployment</h3>
+                        <p className='services__modal-description'>I take care of deploying and hosting your applications using the best DevOps practices. No need to worry about servers—I handle everything for you!</p>
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I develop the user interface.</p>
+                                <p className='services__modal-info'>I create isolated and reproducible environments with Docker, and I automate deployment, management, and scaling with Kubernetes for better resilience and flexibility.</p>
 
                             </li>
 
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I use graphic design software and tools to develop wireframes, mockups, and prototypes for websites and web applications.</p>
+                                <p className='services__modal-info'>I implement CI/CD pipelines to automate testing, builds, and deployments, ensuring fast, reliable, and seamless updates.</p>
 
                             </li>
 
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I create UX element interactions.</p>
-
-                            </li>
-
-                            <li className='services__modal-service'>
-                                <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I position your company brand.</p>
-
-                            </li>
-
-                            <li className='services__modal-service'>
-                                <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>Design and mockups of products for companies.</p>
+                                <p className='services__modal-info'>I deploy and optimize your applications on the right cloud platforms (AWS, GCP, Vercel, DigitalOcean), ensuring scalability, high availability, and cost efficiency.</p>
 
                             </li>
 
@@ -137,38 +114,27 @@ const Service = () => {
                     <div className='services__modal-content'>
                         <i class='bx bx-x services__modal-close' onClick={() =>toggle(0)}></i>
                         <h3 className='services__modal-title'>Performance and optimization</h3>
-                        <p className='services__modal-description'>Services with more than 1 year of 
-                        experience.Providing quality work to clients and companies</p>
+                        <p className='services__modal-description'>I implement advanced caching strategies and server-side rendering to reduce load times, improve SEO, and enhance user experience by delivering optimized content instantly.</p>
                         <ul className='services__modal-services grid'>
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I analyze the performance of applications and websites.</p>
+                                <p className='services__modal-info'>I optimize database queries and API responses to ensure fast data retrieval, reducing latency and improving scalability for high-traffic applications.</p>
 
                             </li>
 
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I implement technical solutions to optimize loading times, responsiveness, and scalability of web applications.</p>
+                                <p className='services__modal-info'>I configure load balancers and optimize server resources to distribute traffic efficiently, prevent bottlenecks, and ensure smooth performance even under heavy load.</p>
 
                             </li>
 
                             <li className='services__modal-service'>
                                 <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I monitor key performance indicators (KPIs) and generate reports to track the effectiveness of implemented improvements.</p>
+                                <p className='services__modal-info'>I implement unit, integration, and performance tests to detect bottlenecks early, ensuring robust and efficient applications with optimized code execution.</p>
 
                             </li>
 
-                            <li className='services__modal-service'>
-                                <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I propose and implement continuous improvements to ensure optimal user experience and efficient resource utilization.</p>
-
-                            </li>
-
-                            <li className='services__modal-service'>
-                                <i class='bx bx-check-circle services__modal-icon'></i>
-                                <p className='services__modal-info'>I stay abreast of the latest trends and technologies in optimization to keep  applications competitive in the market.</p>
-
-                            </li>
+                    
 
                         </ul>
                     </div>
